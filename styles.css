@@ -1,0 +1,53 @@
+/* STYLE SECTIONING TAGS */
+body {
+        background-color:#00031A; 
+       }
+       
+       /* STYLE TEXT */
+       
+       h1 {
+         color: #FFFFFF;
+         font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+         text-align: left;
+         font-weight: 1500;
+       }
+       h2{
+         color: #E6E6E6;
+         font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+       }
+       h3{
+         color: #DB004B;
+         font-family: Oxygen, sans-serif;
+         line-height: 1.6;
+       }
+       h4{
+         color: #F23005;
+         font-family: Oxygen, sans-serif;
+         line-height: 1.6;
+       }
+       h5{
+         color:#BFBFBF;
+         font-family: Oxygen, sans-serif;
+         line-height: 1.6;
+       }
+       h6{
+         color: #808080;
+         font-family: Oxygen, sans-serif;
+         line-height: 1.6;
+       }
+       
+       
+       /* STYLE IMAGES */
+       img{
+         max-width: 50%;
+         max-height: 50%;
+       }
+       
+       /* STYLE LINKS*/
+       
+       /* STYLE NAV BAR */
+       
+       nav {
+         background-color: #01084D;
+       }
+       

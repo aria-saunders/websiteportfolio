@@ -1,41 +1,46 @@
 /* STYLE SECTIONING TAGS */
 body {
-  background-color: #d9d8d7;
+  background-color: #f2f1f0;
 }
 
 /* STYLE TEXT */
 
 h1 {
-  color: #000000;
+  color: #222824;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   text-align: left;
   font-weight: 1500;
 }
 h2 {
-  color: #2e5032;
+  color: #222824;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 h3 {
-  color: #2e5032;
+  color: #569656;
   font-family: Oxygen, sans-serif;
   line-height: 1.6;
 }
 h4 {
-  color: #2e5032;
+  color: #222824;
   font-family: Oxygen, sans-serif;
   line-height: 1.6;
 }
 h5 {
-  color: #2e5032;
+  color: #222824;
   font-family: Oxygen, sans-serif;
   line-height: 1.6;
 }
 h6 {
-  color: #2e5032;
+  color: #222824;
   font-family: Oxygen, sans-serif;
   line-height: 1.6;
 }
 
+p {
+  color: #222824;
+  font-family: Oxygen, sans-serif;
+  line-height: 1.6;
+}
 /* STYLE IMAGES */
 img {
   max-width: 50%;
@@ -47,5 +52,9 @@ img {
 /* STYLE NAV BAR */
 
 nav {
-  background-color: #d9d8d7;
+  background-color: #f2f1f0;
+}
+/* STYLE FOOTER */
+footer {
+  background-color: #d8dbca;
 }

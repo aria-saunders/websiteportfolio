@@ -7,38 +7,38 @@ body {
 
 h1 {
   color: #222824;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: left;
-  font-weight: 1500;
+  font-weight: 400;
 }
 h2 {
   color: #222824;
-  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 h3 {
   color: #569656;
-  font-family: Oxygen, sans-serif;
+  font-family: "Bitter", serif;
   line-height: 1.6;
 }
 h4 {
   color: #222824;
-  font-family: Oxygen, sans-serif;
+  font-family: "Bitter", serif;
   line-height: 1.6;
 }
 h5 {
   color: #222824;
-  font-family: Oxygen, sans-serif;
-  line-height: 1.6;
+  font-family: "Raleway", sans-serif;
+  line-height: 1;
 }
 h6 {
   color: #222824;
-  font-family: Oxygen, sans-serif;
+  font-family: "Bitter", serif;
   line-height: 1.6;
 }
 
 p {
   color: #222824;
-  font-family: Oxygen, sans-serif;
+  font-family: "Bitter", serif;
   line-height: 1.6;
 }
 /* STYLE IMAGES */

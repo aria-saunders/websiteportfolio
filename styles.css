@@ -24,21 +24,10 @@ h3 {
 }
 h4 {
   color: #222824;
-  font-family: "Bitter", serif;
-  line-height: 1.6;
-}
-h5 {
-  color: #222824;
   font-family: "Raleway", sans-serif;
   line-height: 1;
   font-weight: 500;
 }
-h6 {
-  color: #222824;
-  font-family: "Bitter", serif;
-  line-height: 1.6;
-}
-
 p {
   color: #222824;
   font-family: "Bitter", serif;
@@ -46,8 +35,6 @@ p {
 }
 /* STYLE IMAGES */
 img {
-  max-width: 50%;
-  max-height: 50%;
 }
 
 /* STYLE LINKS*/

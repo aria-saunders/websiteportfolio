@@ -4,37 +4,45 @@ body {
 }
 
 /* STYLE TEXT */
-
-h1 {
+/* DEFAULT COLOR, AND FONT */
+html {
   color: #222824;
   font-family: "Raleway", sans-serif;
+}
+h1 {
   text-align: left;
   font-weight: 400;
 }
 h2 {
-  color: #222824;
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
 h3 {
   color: #569656;
-  font-family: "Raleway", sans-serif;
   font-weight: 600;
   line-height: 1.6;
 }
 h4 {
-  color: #222824;
-  font-family: "Raleway", sans-serif;
   line-height: 1;
   font-weight: 500;
 }
 p {
-  color: #222824;
   font-family: "Bitter", serif;
   line-height: 1.6;
+  letter-spacing: 1px;
+  margin: 0 auto;
 }
 /* STYLE IMAGES */
 img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* STYLE LISTS*/
+li {
+  display: list-item;
+}
+ul {
+  list-style: disc;
 }
 
 /* STYLE LINKS*/

@@ -22,8 +22,9 @@ h3 {
   line-height: 1.6;
 }
 h4 {
-  line-height: 1;
+  line-height: 0;
   font-weight: 500;
+  padding: 0;
 }
 p {
   font-family: "Bitter", serif;
@@ -39,18 +40,29 @@ img {
 
 /* STYLE LISTS*/
 li {
-  display: list-item;
 }
 ul {
-  list-style: disc;
+  list-style: none;
+  display: flex;
 }
 
 /* STYLE LINKS*/
-
+/* STYLE HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+}
 /* STYLE NAV BAR */
-
+.name {
+  display: flex;
+}
 nav {
   background-color: #f2f1f0;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
 }
 /* STYLE FOOTER */
 footer {

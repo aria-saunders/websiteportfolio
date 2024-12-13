@@ -3,6 +3,7 @@ body {
   background-color: #f2f1f0;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* STYLE TEXT */
@@ -12,6 +13,7 @@ html {
   font-family: "Raleway", sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 h1 {
   text-align: left;
@@ -64,6 +66,9 @@ header {
   justify-content: space-between;
   margin: 0%;
   padding: 5px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 /* STYLE NAV BAR */
 #name {

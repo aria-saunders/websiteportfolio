@@ -1,5 +1,6 @@
 /* STYLE SECTIONING TAGS */
 body {
+  background-color: #f2f1f0;
   margin: 0;
   padding: 0;
 }
@@ -78,5 +79,5 @@ nav li {
 }
 /* STYLE FOOTER */
 footer {
-  background-color: red;
+  background-color: #d8dbca;
 }

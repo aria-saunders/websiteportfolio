@@ -26,10 +26,12 @@ h3 {
   line-height: 1.6;
 }
 h4 {
-  line-height: 0;
+  line-height: 40px;
   font-weight: 500;
   padding: 0;
   margin: 0;
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
 }
 p {
   font-family: "Bitter", serif;
@@ -64,20 +66,33 @@ header {
   padding: 5px 20px;
 }
 /* STYLE NAV BAR */
-.name {
+#name {
   display: flex;
-  letter-spacing: 0.3em;
 }
 
 nav {
   display: flex;
-  gap: 100px;
 }
 nav li {
   display: flex;
-  gap: 100px;
+  margin-left: 40px;
 }
 /* STYLE FOOTER */
 footer {
   background-color: #d8dbca;
+}
+
+/* STYLE SECTIONS */
+section {
+  height: 100vh;
+  display: flex;
+  place-items: center;
+}
+#intro {
+}
+#aboutme {
+  background-color: #d8dbca;
+}
+
+#projects {
 }

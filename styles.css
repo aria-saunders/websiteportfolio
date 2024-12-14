@@ -1,20 +1,58 @@
-/* STYLE SECTIONING TAGS */
+/* MORE ABSTRACT SECTIONING TAGS */
+/* INSERT HTML IF NEEDED */
 body {
+  color: #222824;
+  font-family: "Raleway", sans-serif;
   background-color: #f2f1f0;
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
-/* STYLE TEXT */
-/* DEFAULT COLOR, AND FONT */
-html {
-  color: #222824;
-  font-family: "Raleway", sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+/* INSERT MAIN IF NEEDED */
+section {
+  height: 100vh;
+  display: flex;
+  place-items: center;
 }
+/* SPECIFIC SECTIONING TAGS; NOTE, IF/WHEN ADDING PAGES, HEADER STICKY SETTINGS WOULD NEED TO BE MOVED OUT OF MAIN AND ADJUSTED SO IT STICKS PAST THE FIRST SECTION */
+/* HEADER */
+header {
+  background-color: #f2f1f0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 5px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+/* NAV */
+nav {
+  display: flex;
+}
+nav li {
+  display: flex;
+  margin-left: 40px;
+}
+nav a {
+  /*specified here because other links will be green text*/
+  color: #222824;
+}
+/* STYLE FOOTER */
+footer {
+  background-color: #d8dbca;
+}
+/* SPECIFIC SECTIONING IDS; NOTE IF/AS WANTING TO EDIT NAME AND MAYBE ADD LOGO, ADD ID HERE + CREATE DIV TAGS SURROUNDING IT */
+#intro {
+}
+#aboutme {
+  background-color: #d8dbca;
+}
+#projects {
+}
+/* TEXT TAGS; NOTE CURRENTLY ONLY USING 4 HEADERS AND RESEARCHING HOW USING H4 FOR NAV TEXT STYLING AFFECTS ACCESSIBILITY/SCREEN READERS AND ALTERNATIVES/WHAT PPL GENERALLY DO FOR IT*/
+/* HEADERS */
 h1 {
   text-align: left;
   font-weight: 400;
@@ -35,19 +73,19 @@ h4 {
   letter-spacing: 0.1em;
   font-size: 1.3em;
 }
+/* PARAGRAPH */
 p {
   font-family: "Bitter", serif;
   line-height: 1.6;
   letter-spacing: 1px;
   margin: 0 auto;
 }
-/* STYLE IMAGES */
+/* IMAGES */
 img {
   display: block;
   margin: 0 auto;
 }
-
-/* STYLE LISTS*/
+/* LISTS*/
 li {
   margin: 0;
   padding: 0;
@@ -56,36 +94,13 @@ ul {
   list-style: none;
   display: flex;
 }
-
-/* STYLE LINKS*/
-/* STYLE HEADER */
-header {
-  background-color: #f2f1f0;
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  margin: 0%;
-  padding: 5px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-/* STYLE NAV BAR */
-#name {
-  display: flex;
-}
-
-nav {
-  display: flex;
-}
-nav li {
-  display: flex;
-  margin-left: 40px;
-}
+/* LINKS*/
+/* BASIC */
 a {
   text-decoration: none;
   position: relative;
 }
+/* INTERACTIVITY, COULD CHANGE AS LEARNING JAVASCRIPT ALTERNATIIVES AND FINETUNING */
 a::after {
   content: "";
   position: absolute;
@@ -98,26 +113,4 @@ a::after {
 }
 a:hover::after {
   width: 100%;
-}
-nav a {
-  color: #222824;
-}
-/* STYLE FOOTER */
-footer {
-  background-color: #d8dbca;
-}
-
-/* STYLE SECTIONS */
-section {
-  height: 100vh;
-  display: flex;
-  place-items: center;
-}
-#intro {
-}
-#aboutme {
-  background-color: #d8dbca;
-}
-
-#projects {
 }

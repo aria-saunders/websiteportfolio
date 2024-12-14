@@ -1,5 +1,7 @@
 /* MORE ABSTRACT SECTIONING TAGS */
-/* INSERT HTML IF NEEDED */
+html {
+  scroll-behavior: smooth;
+}
 body {
   color: #222824;
   font-family: "Raleway", sans-serif;
@@ -56,6 +58,9 @@ footer {
 h1 {
   text-align: left;
   font-weight: 400;
+  font-size: 5em;
+  line-height: 150px;
+  margin: 50px 50px 50px 0px;
 }
 h2 {
   font-weight: 400;
@@ -83,7 +88,13 @@ p {
 /* IMAGES */
 img {
   display: block;
-  margin: 0 auto;
+  margin: 0 0;
+}
+#headshot {
+  width: 450px;
+  height: auto;
+  bottom: 0;
+  margin: 50px;
 }
 /* LISTS*/
 li {

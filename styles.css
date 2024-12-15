@@ -15,6 +15,7 @@ section {
   height: 100vh;
   display: flex;
   place-items: center;
+  padding: 50px 0 px;
 }
 /* SPECIFIC SECTIONING TAGS; NOTE, IF/WHEN ADDING PAGES, HEADER STICKY SETTINGS WOULD NEED TO BE MOVED OUT OF MAIN AND ADJUSTED SO IT STICKS PAST THE FIRST SECTION */
 /* HEADER */
@@ -28,6 +29,11 @@ header {
   position: sticky;
   top: 0;
   z-index: 100;
+  transition: opacity 0.4s ease;
+  opacity: 0;
+}
+header.visible {
+  opacity: 1;
 }
 /* NAV */
 nav {
@@ -47,11 +53,13 @@ footer {
 }
 /* SPECIFIC SECTIONING IDS; NOTE IF/AS WANTING TO EDIT NAME AND MAYBE ADD LOGO, ADD ID HERE + CREATE DIV TAGS SURROUNDING IT */
 #intro {
+  align-items: center;
 }
 #aboutme {
   background-color: #d8dbca;
 }
 #projects {
+  background-color: #2c2d29;
 }
 /* TEXT TAGS; NOTE CURRENTLY ONLY USING 4 HEADERS AND RESEARCHING HOW USING H4 FOR NAV TEXT STYLING AFFECTS ACCESSIBILITY/SCREEN READERS AND ALTERNATIVES/WHAT PPL GENERALLY DO FOR IT*/
 /* HEADERS */
@@ -60,13 +68,13 @@ h1 {
   font-weight: 400;
   font-size: 5em;
   line-height: 150px;
-  margin: 50px 50px 50px 0px;
+  margin: -50px 50px 50px 0px;
 }
 h2 {
   font-weight: 400;
 }
 h3 {
-  color: #569656;
+  color: #61ab61;
   font-weight: 600;
   line-height: 1.6;
 }
@@ -94,7 +102,7 @@ img {
   width: 450px;
   height: auto;
   bottom: 0;
-  margin: 50px;
+  margin: -50px 50px 50px;
 }
 /* LISTS*/
 li {

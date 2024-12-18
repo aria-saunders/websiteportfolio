@@ -31,7 +31,7 @@ header {
   z-index: 100;
   transition: opacity 0.4s ease;
   opacity: 0;
-  box-shadow: 0px px 6px #4d3100;
+  box-shadow: 0px 4px 6px #4d3100;
 }
 header.visible {
   opacity: 1;

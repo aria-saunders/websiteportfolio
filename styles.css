@@ -65,12 +65,13 @@ footer {
 h1 {
   text-align: left;
   font-weight: 400;
-  font-size: 5em;
+  font-size: 4em;
   line-height: 150px;
-  margin: -200px 50px 50px 0px;
+  margin: -180px 200px 50px 0px;
 }
 h2 {
   font-weight: 400;
+  font-size: 2em;
 }
 h3 {
   color: #61ab61;
@@ -98,10 +99,10 @@ img {
   margin: 0 0;
 }
 #headshot {
-  width: 450px;
+  width: 400px;
   height: auto;
   bottom: 0;
-  margin: -200px 50px 50px;
+  margin: -165px 50px 110px 200px;
 }
 /* LISTS*/
 li {

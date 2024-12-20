@@ -12,10 +12,9 @@ body {
 }
 /* INSERT MAIN IF NEEDED */
 section {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
-  place-items: center;
-  padding: 50px 0px;
+  padding: 67px 20px;
 }
 /* SPECIFIC SECTIONING TAGS; NOTE, IF/WHEN ADDING PAGES, HEADER STICKY SETTINGS WOULD NEED TO BE MOVED OUT OF MAIN AND ADJUSTED SO IT STICKS PAST THE FIRST SECTION */
 /* HEADER */
@@ -28,6 +27,7 @@ header {
   padding: 5px 30px;
   position: sticky;
   top: 0;
+  height: 67px;
   z-index: 100;
   transition: opacity 0.4s ease;
   opacity: 0;
@@ -57,21 +57,25 @@ footer {
 }
 #aboutme {
   background-color: #d8dbca;
+  text-align: left;
+  flex-direction: column;
+  align-items: flex-start;
 }
 #projects {
 }
-/* TEXT TAGS; NOTE CURRENTLY ONLY USING 4 HEADERS AND RESEARCHING HOW USING H4 FOR NAV TEXT STYLING AFFECTS ACCESSIBILITY/SCREEN READERS AND ALTERNATIVES/WHAT PPL GENERALLY DO FOR IT*/
+/* TEXT TAGS THEN IDS; NOTE CURRENTLY ONLY USING 4 HEADERS AND RESEARCHING HOW USING H4 FOR NAV TEXT STYLING AFFECTS ACCESSIBILITY/SCREEN READERS AND ALTERNATIVES/WHAT PPL GENERALLY DO FOR IT*/
 /* HEADERS */
 h1 {
   text-align: left;
   font-weight: 400;
   font-size: 4em;
   line-height: 150px;
-  margin: -180px 200px 50px 0px;
+  margin: -165px 200px 50px 0px;
 }
 h2 {
   font-weight: 400;
-  font-size: 2em;
+  font-size: 3em;
+  margin: 50px 300px 10px;
 }
 h3 {
   color: #61ab61;
@@ -91,7 +95,11 @@ p {
   font-family: "Bitter", serif;
   line-height: 1.6;
   letter-spacing: 1px;
-  margin: 0 auto;
+  font-size: 1em;
+  margin: 10px 300px 20px;
+}
+
+#aboutmeheader {
 }
 /* IMAGES */
 img {

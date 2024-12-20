@@ -15,6 +15,7 @@ section {
   min-height: 100vh;
   display: flex;
   padding: 67px 20px;
+  place-items: center;
 }
 /* SPECIFIC SECTIONING TAGS; NOTE, IF/WHEN ADDING PAGES, HEADER STICKY SETTINGS WOULD NEED TO BE MOVED OUT OF MAIN AND ADJUSTED SO IT STICKS PAST THE FIRST SECTION */
 /* HEADER */
@@ -54,6 +55,7 @@ footer {
 }
 /* SPECIFIC SECTIONING IDS; NOTE IF/AS WANTING TO EDIT NAME AND MAYBE ADD LOGO, ADD ID HERE + CREATE DIV TAGS SURROUNDING IT */
 #intro {
+  vertical-align: middle;
 }
 #aboutme {
   background-color: #d8dbca;
@@ -70,7 +72,7 @@ h1 {
   font-weight: 400;
   font-size: 4em;
   line-height: 150px;
-  margin: 60px 200px 50px 0px;
+  margin: -165px 200px 50px 0px;
 }
 h2 {
   font-weight: 400;
@@ -108,9 +110,9 @@ img {
 }
 #headshot {
   width: 400px;
-  height: 600px;
+  height: auto;
   bottom: 0;
-  margin: 60px 50px 110px 200px;
+  margin: -165px 50px 110px 200px;
 }
 /* LISTS*/
 li {

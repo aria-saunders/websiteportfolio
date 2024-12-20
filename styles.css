@@ -70,7 +70,7 @@ h1 {
   font-weight: 400;
   font-size: 4em;
   line-height: 150px;
-  margin: -165px 200px 50px 0px;
+  margin: 60px 200px 50px 0px;
 }
 h2 {
   font-weight: 400;
@@ -108,9 +108,9 @@ img {
 }
 #headshot {
   width: 400px;
-  height: auto;
+  height: 600px;
   bottom: 0;
-  margin: -165px 50px 110px 200px;
+  margin: 60px 50px 110px 200px;
 }
 /* LISTS*/
 li {
